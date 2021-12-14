@@ -5,7 +5,9 @@ This repository contains supplementary material regarding the evaluations presen
 The evaluation consists of three main parts:
 
 (1) Evaluation of the rule generation algorithm (based on 10 benchmark datasets);
+
 (2) A usability study aimed at evaluating the effectiveness of the *Feature-Aligned Tree* visualization;
+
 (3) An observational study aimed at evaluating the usefulness of the interactive workflow (with 7 domain experts).
 
 The material is organized around three main folders you can find in the repository:
