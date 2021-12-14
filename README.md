@@ -1,15 +1,23 @@
-# sure_evaluation
+# SuRE Evaluation: A Supplementary Material
 
-The evaluation of SuRE consists of three parts: (1) the evaluation of the rule genration algorithm based on 10 benchmark datasets; (2) an online usability study of whether novice can extract information correctly from the hierarchical rule visualization by an in-lab user study with 24 participants; (3) we evaluate the usefulness of the interactive workflow of SuRE by online observational study with 7 domain experts.
+This repository contains supplementary material regarding the evaluations presented in the paper **Visual Exploration of Machine Learning Model Behavior with Hierarchical Surrogate Rule Sets**.
+
+The evaluation consists of three main parts:
+
+(1) Evaluation of the rule generation algorithm (based on 10 benchmark datasets);
+(2) A usability study aimed at evaluating the effectiveness of the *Feature-Aligned Tree* visualization;
+(3) An observational study aimed at evaluating the usefulness of the interactive workflow (with 7 domain experts).
+
+The material is organized around three main folders you can find in the repository:
 
 - `/algo_experiment`
 
-  This folder includes the code of training the black-box models and the experiments we have run.
+This folder contains the code used to train the models and to perform the parameter sensitivity analysis and the comparison with decision trees.
 
 - `/usability_study`
 
-  This folder contains the slides we used in the study to introduce how to read the lattice visual design and what task we ask participants to do. We also include the anonymous response and the notebook we used to analyze the response data.
+This folder contains the slides used in the study to instruct the participants, the anonymous responses we collected and the notebook we used to analyze the data.
 
 - `/observational_study`
 
-  This folder contains the slides we used in the interview to introduce the visualization, the system, and the study procedure. We also include the coded task categories for the analytical tasks the domain experts performed during the observational study.
+This folder contains the slides we used in the interview to introduce the visualizations, the system, and the study procedure. We also include the list of tasks we collected and the task categorization we created.
